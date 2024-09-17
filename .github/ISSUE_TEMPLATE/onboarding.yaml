@@ -9,7 +9,7 @@ body:
       value: "## Onboarding to Catena-X Automotive Network e.V."
   - type: markdown
     attributes:
-      value: "Please ensure that your company is already a member of Catena-X Automotive Network e.V. before proceeding. If not, onboarding cannot be completed."
+      value: "Please ensure that your company is already a member of Catena-X Automotive Network e.V. before proceeding. If not, the issue will not be processed further. **Be aware, since the repository is public, everybody can see your entered information**"
   - type: input
     attributes:
       label: "Company Name"
