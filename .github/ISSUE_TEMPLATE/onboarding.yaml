@@ -28,11 +28,12 @@ body:
     attributes:
       label: "Membership Confirmation"
       description: "Confirm that your company is a member of Catena-X Automotive Network e.V."
-    validations:
-      required: true
       options:
         - "Yes, we are a member"
-        - "No, we are not a member"
+        - "No, we are not a member"  
+      default: 0 
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: "Contact Information"
