@@ -31,7 +31,6 @@ body:
       options:
         - "Yes, we are a member"
         - "No, we are not a member"  
-      default: 0 
     validations:
       required: true
   - type: textarea
