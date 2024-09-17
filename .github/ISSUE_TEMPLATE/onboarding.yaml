@@ -5,9 +5,11 @@ labels: ["onboarding", "Catena-X"]
 assignees: ["onboarding-team"]
 body:
   - type: markdown
-    value: "## Onboarding to Catena-X Automotive Network e.V."
+    attributes:
+      value: "## Onboarding to Catena-X Automotive Network e.V."
   - type: markdown
-    value: "Please ensure that your company is already a member of Catena-X Automotive Network e.V. before proceeding. If not, onboarding cannot be completed."
+    attributes:
+      value: "Please ensure that your company is already a member of Catena-X Automotive Network e.V. before proceeding. If not, onboarding cannot be completed."
   - type: input
     attributes:
       label: "Company Name"
