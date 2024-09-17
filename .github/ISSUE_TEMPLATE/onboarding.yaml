@@ -1,43 +1,41 @@
-blank_issues_enabled: false
-issue_templates:
-  - name: Onboarding to Catena-X Automotive Network e.V.
-    description: "This issue is only relevant for people whose company is already a member of Catena-X Automotive Network e.V. If the company is not a member, it is not possible to proceed."
-    title: "[Onboarding] "
-    labels: ["onboarding", "Catena-X"]
-    assignees: ["onboarding-team"]
-    body:
-      - type: markdown
-        value: "## Onboarding to Catena-X Automotive Network e.V."
-      - type: markdown
-        value: "Please ensure that your company is already a member of Catena-X Automotive Network e.V. before proceeding. If not, onboarding cannot be completed."
-      - type: input
-        attributes:
-          label: "Company Name"
-          description: "Please provide the official name of your company."
-          placeholder: "Enter your company name"
-          required: true
-      - type: input
-        attributes:
-          label: "Catena-X Membership ID"
-          description: "Provide the Catena-X Membership ID (if available)."
-          placeholder: "Enter your membership ID"
-          required: false
-      - type: dropdown
-        attributes:
-          label: "Membership Confirmation"
-          description: "Confirm that your company is a member of Catena-X Automotive Network e.V."
-          required: true
-          options:
-            - "Yes, we are a member"
-            - "No, we are not a member"
-      - type: textarea
-        attributes:
-          label: "Contact Information"
-          description: "Provide the primary contact information (name, email) for the onboarding process."
-          placeholder: "Enter contact details"
-          required: true
-      - type: textarea
-        attributes:
-          label: "Additional Notes or Questions"
-          description: "Any additional information or questions regarding the onboarding process."
-          required: false
+name: Onboarding to Catena-X Automotive Network e.V.
+description: "This issue is only relevant for people whose company is already a member of Catena-X Automotive Network e.V. If the company is not a member, it is not possible to proceed."
+title: "[Onboarding] "
+labels: ["onboarding", "Catena-X"]
+assignees: ["onboarding-team"]
+body:
+  - type: markdown
+    value: "## Onboarding to Catena-X Automotive Network e.V."
+  - type: markdown
+    value: "Please ensure that your company is already a member of Catena-X Automotive Network e.V. before proceeding. If not, onboarding cannot be completed."
+  - type: input
+    attributes:
+      label: "Company Name"
+      description: "Please provide the official name of your company."
+      placeholder: "Enter your company name"
+      required: true
+  - type: input
+    attributes:
+      label: "Catena-X Membership ID"
+      description: "Provide the Catena-X Membership ID (if available)."
+      placeholder: "Enter your membership ID"
+      required: false
+  - type: dropdown
+    attributes:
+      label: "Membership Confirmation"
+      description: "Confirm that your company is a member of Catena-X Automotive Network e.V."
+      required: true
+      options:
+        - "Yes, we are a member"
+        - "No, we are not a member"
+  - type: textarea
+    attributes:
+      label: "Contact Information"
+      description: "Provide the primary contact information (name, email) for the onboarding process."
+      placeholder: "Enter contact details"
+      required: true
+  - type: textarea
+    attributes:
+      label: "Additional Notes or Questions"
+      description: "Any additional information or questions regarding the onboarding process."
+      required: false
