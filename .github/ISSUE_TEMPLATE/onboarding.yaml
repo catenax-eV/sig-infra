@@ -9,35 +9,39 @@ body:
       value: "## Onboarding to Catena-X Automotive Network e.V."
   - type: markdown
     attributes:
-      value: "Please ensure that your company is already a member of Catena-X Automotive Network e.V. before proceeding. If not, the issue will not be processed further. **Be aware, since the repository is public, everybody can see your entered information**"
+      value: "Please ensure that your company is already a member of Catena-X Automotive Network e.V. before proceeding. If not, the issue will not be processed further. **Please note: Due to the fact that the repository and the issues are public, anyone can see the information entered.**"
+  - type: input
+    attributes:
+      label: "Your Full Name"
+      description: "Please provide your name. This is important to identify/map you with your company."
+      placeholder: "Enter your full name"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "E-Mail"
+      description: "This is only important if you also want to get access to the provided Catena-X Microsoft teams tenant."
+      placeholder: "email@example.com"
+  - type: input
+    attributes:
+      label: "Microsoft Teams Channel"
+      description: "If you added you E-Mail in the prevoius step and you want to get acceess to a dedicated teams (e.g. expert group or committee) please add the name of the group."
+      placeholder: "Network Service Committee - Dataspace Connectivity"
+  - type: input
+    attributes:
+      label: "GitHub Handle"
+      description: "This is only important if you also want to get access to a dedicated team in Catena-X GitHub. e.g. expert group or committee"
+      placeholder: "https://github.com/stephanbcbauer"
+  - type: input
+    attributes:
+      label: "GitHub Teams / Repository"
+      description: "If you added you GitHub Handle in the prevoius step and you want to get acceess to a dedicated teams (e.g. expert group or committee) please add the name of the group."
+      placeholder: "Dataspace Connectivity"
   - type: input
     attributes:
       label: "Company Name"
-      description: "Please provide the official name of your company."
+      description: "Please provide the official name of your company. This is important, cause you get only acceess, if your company is already a member of Catena-X."
       placeholder: "Enter your company name"
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: "Catena-X Membership ID"
-      description: "Provide the Catena-X Membership ID (if available)."
-      placeholder: "Enter your membership ID"
-    validations:
-      required: false
-  - type: dropdown
-    attributes:
-      label: "Membership Confirmation"
-      description: "Confirm that your company is a member of Catena-X Automotive Network e.V."
-      options:
-        - "Yes, we are a member"
-        - "No, we are not a member"  
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: "Contact Information"
-      description: "Provide the primary contact information (name, email) for the onboarding process."
-      placeholder: "Enter contact details"
     validations:
       required: true
   - type: textarea
