@@ -15,18 +15,21 @@ body:
       label: "Company Name"
       description: "Please provide the official name of your company."
       placeholder: "Enter your company name"
-      required: true
+      validations:
+        required: true
   - type: input
     attributes:
       label: "Catena-X Membership ID"
       description: "Provide the Catena-X Membership ID (if available)."
       placeholder: "Enter your membership ID"
-      required: false
+      validations:
+        required: false
   - type: dropdown
     attributes:
       label: "Membership Confirmation"
       description: "Confirm that your company is a member of Catena-X Automotive Network e.V."
-      required: true
+      validations:
+        required: true
       options:
         - "Yes, we are a member"
         - "No, we are not a member"
@@ -35,9 +38,11 @@ body:
       label: "Contact Information"
       description: "Provide the primary contact information (name, email) for the onboarding process."
       placeholder: "Enter contact details"
-      required: true
+      validations:
+        required: true
   - type: textarea
     attributes:
       label: "Additional Notes or Questions"
       description: "Any additional information or questions regarding the onboarding process."
-      required: false
+      validations:
+        required: false
